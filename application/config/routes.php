@@ -71,3 +71,15 @@ $route['admin/produk/hapus/(:num)'] = 'administrator/produk_controller/hapus_pro
 //admin-hapus gambar produk (dalam ubah_produk.php)
 $route['admin/produk/hapus_gambar/(:num)'] = 'administrator/produk_controller/hapus_gambar/$1';
 $route['admin/produk/ubah_satu_gambar/(:num)'] = 'administrator/produk_controller/ubah_satu_gambar/$1';
+
+//admin-ongkir2422500012
+$route['admin/ongkir2422500012'] = 'administrator/ongkir2422500012_controller/index';
+$route['admin/ongkir2422500012/tambah'] = 'administrator/ongkir2422500012_controller/tambah_ongkir2422500012';
+$route['admin/ongkir2422500012/ubah/(:num)'] = 'administrator/ongkir2422500012_controller/ubah_ongkir2422500012/$1';
+$route['admin/ongkir2422500012/hapus/(:num)'] = 'administrator/ongkir2422500012_controller/hapus_ongkir2422500012/$1';
+
+#pelanggan
+$route['login'] = 'pelanggan_controller/login';
+$route['register'] = 'pelanggan_controller/register';
+$route['logout'] = 'pelanggan_controller/logout';
+$route['profil'] = 'pelanggan_controller/profil';

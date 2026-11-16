@@ -115,7 +115,7 @@
 								</div>
 
                                 <!-- Tombol Ubah Data Utama juga dihubungkan dengan atribut form="formUtama" -->
-								<button type="submit" form="formUtama" class="btn btn-primary">Ubah Data Utama</button>
+								<button type="submit" form="formUtama" class="btn btn-primary">Ubah</button>
 								<a href="<?= base_url('admin/produk') ?>" class="btn btn-danger">Kembali</a>
 							</p>
 						</div>
